@@ -1,0 +1,17 @@
+.header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.904)), url("../../../public/image/pexels-jsantiagoph-33618950.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100% !important;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.btn-st {
+    background-color: #caa05c;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}

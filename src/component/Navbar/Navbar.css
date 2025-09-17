@@ -1,0 +1,68 @@
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+    backdrop-filter: blur(1px);
+    transition: all 1s ease;
+}
+
+.ul-links {
+    font-size: 20px;
+}
+.ba-nav{
+    background-color:#111111 !important;
+}
+
+.ul-links li a {
+    position: relative;
+    transition: all 1s ease;
+}
+
+.ul-links li a:hover {
+    color: #caa05c;
+}
+
+.ul-links li a::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 0px;
+    background-color: #caa05c;
+    bottom: -5px;
+    left: -4px;
+    transition: all 1s ease;
+}
+
+.ul-links li a:hover:after {
+    width: 70px;
+
+
+}
+
+/* الموبايل */
+@media (max-width: 640px) {
+    /* .ul-links {
+        display: none;
+    } */
+      .btn-menu-toggle {
+        margin-right: 10px;
+        margin-top: 10px;
+        color: #caa05c;
+        cursor: pointer;
+        
+    }
+}
+
+/* التابلت */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .btn-menu-toggle {
+        display: none;
+    }
+}
+
+/* اللاب أو الشاشات الكبيرة */
+@media (min-width: 1025px) {
+    .btn-menu-toggle {
+        display: none;
+    }
+}
