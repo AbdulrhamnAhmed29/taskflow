@@ -27,7 +27,7 @@ function NavBar() {
                 <div className="logo">
                     <h1 className='text-3xl italic font-extrabold sm:text-5xl'>Task<span className='ms-3'>Flow</span></h1>
                 </div>
-                <ul className="links mt-1 flex flex-row justify-between gap-10 italic ul-links sm:flex-row sm:gap-10 ">
+                <ul className="links mt-1 flex flex-row justify-between   text-2xl  gap-5 italic ul-links sm:flex-row sm:gap-10 sm:text-4xl ">
                     <li><a href="#home" className="">Home</a></li>
                     <li><a href="#features" className="">Features</a></li>
                     <li><a href="#Clinets" className="">Clinets</a></li>
